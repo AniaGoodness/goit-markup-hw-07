@@ -4,67 +4,8 @@
     box-sizing: border-box;
 }
 
-:root {
-    --bg-color: #2F303A;
-    --link-button-color: #2196F3;
-    --content-color: #757575;
-    --title-color: #212121;
-    --primary-color: white;
-    --second-color: black;
-    --button-stat-color: #F5F4FA;
-    --footer-color: rgba(255, 255, 255, 0.6);
-    --social-icon-color: #AFB1B8;
-}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: var(--content-color);
-    letter-spacing: 0.03em;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-address {
-    font-style: normal;
-}
-
-button {
-    display: block;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-
-}
-
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    text-decoration: none;
-    position: relative;
-}
 
 .link {
     text-decoration: none;
@@ -375,41 +316,8 @@ header {
     color: var(--title-color);
     margin-bottom: 10px;
 }
-.social-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
+/*--------------- COMPONENT social-list-----------*/
 
-}
-
-.social-list__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: var(--social-icon-color);
-    background-color: var(--primary-color);
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list__link:hover,
-.social-list__link:focus {
-    background-color: var(--link-button-color);
-    color: var(--primary-color);
-
-}
-
-.social-list__icon {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-}
 
 /* ==============0ur clients=========== */
 .section-clients {
