@@ -1,45 +1,39 @@
-body {
+:root body {
   font-family: "Roboto", "sans-serif";
   font-size: 14px;
-  color: var(#757575);
+  color: #757575;
   letter-spacing: 0.03em;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+:root h1,
+:root h2,
+:root h3,
+:root h4,
+:root h5,
+:root h6,
+:root p {
   margin: 0;
   padding: 0;
 }
-
-img {
+:root img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
-address {
+:root address {
   font-style: normal;
 }
-
-button {
+:root button {
   display: block;
   cursor: pointer;
   border: none;
   border-radius: 4px;
 }
-
-.container {
+:root .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
-.list {
+:root .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
