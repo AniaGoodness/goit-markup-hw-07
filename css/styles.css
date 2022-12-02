@@ -51,11 +51,6 @@ button {
     border-radius: 4px;
 }
 
-.section-card {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -256,6 +251,10 @@ header {
     position: relative;
 }
 
+.section-card {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-card__list {
     display: flex;
     gap: 30px;
