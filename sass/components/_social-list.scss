@@ -19,12 +19,13 @@
     transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list__link:hover,
-.social-list__link:focus {
-    background-color: var(--link-button-color);
-    color: var(--primary-color);
+
+        &:hover,
+        &:focus {
+            background-color: var(--link-button-color);
+            color: var(--primary-color);
+        }
 
 }
 
